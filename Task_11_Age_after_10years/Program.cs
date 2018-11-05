@@ -1,0 +1,16 @@
+﻿using System;
+
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("How old are you?");
+
+        int age = int.Parse(Console.ReadLine());
+
+        int result = age + 10;
+
+        Console.WriteLine("You will be " + result + " years old after 10 years.");
+    }
+}
