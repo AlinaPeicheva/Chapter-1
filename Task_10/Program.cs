@@ -9,8 +9,11 @@ class Program
 
         for (int i = 2; i < 103; i++)
         {
-            if (i % 2 == 0) Console.WriteLine(i);
-            else Console.Write("-{0}", i);
+            if (i % 2 == 0)
+                Console.WriteLine(i);
+        
+            else
+                Console.Write("-{0}", i);
         }
     }
 }
